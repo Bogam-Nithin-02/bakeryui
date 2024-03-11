@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Poppins';
+}
+.indulge_cont{
+    width: 90%;
+    height: 450px;
+   border: none;
+    margin: auto;
+    display: flex;
+}
+.indulge1{
+    width: 100%;
+    height: 450px;
+   border: none;
+    margin: auto;
+}
+.indulge_txt{
+    width: 100%;
+    height: 300px;
+   border: none;
+    margin: auto;
+}
+p{
+    margin-left: 100px;
+}
+ h1{
+   font-size: 55px;
+   margin-left: 100px;
+}
+.indulge_logo{
+    width: 40px;
+    height: 30px;
+   border: none;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.indulge_grid{
+    width: 100%;
+    height: 150px;
+   border: none;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.grid_items{
+    width: 200px;
+    height: 70px;
+   border: none;
+    margin-top: 65px;
+    align-items: center;
+}
+.indulge2{
+    width: 100%;
+    height: 450px;
+   border: none;
+    position:relative;
+    margin: auto;
+ 
+}
+.indulge2 img{
+    width: 70%;
+    height: 100%;
+    rotate: left;
+    position: right;
+    left: 15%;
+}
+/* we make section*/
+.wenav{
+    margin-top: 40px;
+    width: 40%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+*{
+    text-decoration: none;
+}
+.navdiv{
+    background: none; font-family:'Poppins';
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;margin: auto;
+}
+li{
+    list-style: none; display:inline-flex;
+}
+li a{
+    color: black; font-size: 15px; font-weight: bold; margin-right: 25px;
+}
+/* we make section nav bar completed*/
+.food_grid{
+    width: auto;
+    height: 400px;
+    border:none;
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+.item{
+    width: 300px;
+    height:300px;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-left: 5px;
+
+}
+.item img{
+    width: 250px;
+    height: 200px;
+    padding: 2%;
+    object-fit: cover;
+}
+.item1{
+    width: 300px;
+    height:300px;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 5px;
+
+}
+.item1 img{
+    width: 250px;
+    height: 200px;
+    padding: 2%;
+    object-fit: cover;
+}
+/* grid section ends*/
+.history1{
+    margin-top: 10px;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 550px;
+    border: none;
+    margin-top: 25px;
+    display: flex;
+}
+
+.hstimg {
+    width: 100%;
+    height: 550px;
+    border: none;
+}
+.hstimg .imggrid{
+    width: 100%;
+    height: 150px;
+    border: 1px solid whitesmoke;
+    display: flex;
+}
+.img1{
+    width: 100px;
+    height:100px;
+    border: none;
+    margin-top: 40px;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+}
+.img1 img{
+     width: 20px;
+     height: 20px;
+     object-fit: fill;
+     margin-top: 10px;
+     margin-left: 40px;
+}
+
+.img2{
+    width: 180px;
+    height:80px;
+    border: 1px solid whitesmoke;
+    margin-top:35px;
+    margin-left: 80px;
+}
+.img2 img{
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    margin-top: 10px;
+}
+
+.foodimg{
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+.foodimg img{
+    width: 80%;
+    height: 440px;
+    margin-left: 30px;
+    object-fit: fill;
+    object-position: relative;
+}
+.hstgrid{
+    width: 100%;
+    height: 550px;
+    border: none;
+   
+}
+.about{
+    width: 80% ;
+    height: 150px;
+    border: 1px solid whitesmoke;
+    justify-content: space-between;
+   margin-left: 10px;
+    margin-top: 20px;
+}
+.about img{
+    width: 10%;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: fill;
+    margin-top:10px;
+    margin-left:10px
+}
+/* our sweet ingredients*/
+.ingredients{
+    width: 100%;
+    height: 150px;
+    border: none;
+    margin-top: 40px;
+}
+.ingrd_grids{
+    width: 80%;
+    height: 270px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+   padding: 5px;
+ 
+}
+.swt_grid{
+    width: 30%;
+    height: 250px;
+    border: 1px solid whitesmoke;   
+}
+.swt_grid img{
+    width:40%;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/*what our customer says*/
+.customer{
+    width: 90%;
+    height: 300px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 7%;
+    display: flex;
+}
+.customer img{
+    width: 40%;
+    height: 300px;
+    object-fit: fill;
+    margin-left: 5px;
+}
